@@ -6,6 +6,7 @@ import { BsGithub } from 'react-icons/bs';
 import trivia from '../images/trivia.jpg'
 import trybetunes from '../images/Tunes.png'
 import starwars from '../images/starwars.png'
+import recipesapp from '../images/recipesapp.png'
 
 function Content() {
 
@@ -15,6 +16,13 @@ function Content() {
       <h2>Frontend Developer, Musician and Nature lover</h2>
       <h2 className="proj-text">And these are some projects that I'm working on</h2>
       <div className="projects">
+        <a
+          target="_blank"
+          rel="no noreferrer"
+          href="https://recipesapp-andremelo.vercel.app/"
+        >
+          <img src={recipesapp} alt="recipes app" />
+        </a>
         <a
           target="_blank"
           rel="no noreferrer"
